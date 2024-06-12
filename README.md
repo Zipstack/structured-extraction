@@ -11,8 +11,6 @@ You should be able to run this on Linux or on a Mac. Windows is not supported.
 ## Keys you'll need
 You'll need keys for OpenAI and [LLMWhisperer](https://unstract.com/llmwhisperer/), which you can get for free. Please read the blog post for more information. Once you have the keys, please add them to the `.env` file in the root of the project.
 
-```bash
-
 ## Running the code
 Clone this repo and change to the `structured-extraction` directory. We suggest you run the code after you've created a Python virtual environment. You can create a virtual environment by running the following command:
 
@@ -40,7 +38,7 @@ python extract.py <path to the credit card statement PDF or directory with PDFs>
 
 # Results
 
-## Sample input:
+## Sample input (page 1):
 ![img](assets/imgs/chase_cc.png)
 
 ## Generated LLMWhisperer output
