@@ -1,0 +1,5 @@
+langchain==0.2.3
+langchain-openai==0.1.8
+llmwhisperer-client==0.1.0
+pydantic==2.7.3
+python-dotenv==1.0.1
