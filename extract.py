@@ -61,15 +61,6 @@ class ParsedCreditCardStatement(BaseModel):
 
 def make_llm_whisperer_call(file_path):
     print(f"Processing file:{file_path}...")
-    # with open(file_path, "rb") as f:
-    #     data = f.read()
-    #
-    # headers = {
-    #     'Content-Type': 'application/octet-stream',
-    #     'unstract-key': os.getenv('UNSTRACT_LLMWHISPERER_KEY')
-    # }
-    # url = 'https://llmwhisperer-api.unstract.com/v1/whisper?processing_mode=ocr&output_mode=line-printer'
-    # return requests.post(url, headers=headers, data=data)
     # LLMWhisperer API key is picked up from the environment variable
     client = LLMWhispererClient()
     result = client.whisper(file_path=file_path, processing_mode="ocr", output_mode="line-printer")
