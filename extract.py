@@ -11,7 +11,7 @@ from langchain.prompts import SystemMessagePromptTemplate, ChatPromptTemplate, \
 from langchain_openai import ChatOpenAI
 from langchain.output_parsers import PydanticOutputParser
 from pydantic import BaseModel, Field
-from llmwhisperer.client import LLMWhispererClient
+from unstract.llmwhisperer.client import LLMWhispererClient
 
 
 class CustomerAddress(BaseModel):
