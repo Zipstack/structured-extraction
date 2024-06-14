@@ -1,6 +1,6 @@
 # Extracting Structured JSON from Credit Card Statements with Langchain and Pydantic
 
-This repository contains the code for the blog post [Extracting Structured JSON from Credit Card Statements with Langchain and Pydantic](https://langchain.com/blog/extracting-structured-json-from-credit-card-statements-with-langchain-and-pydantic/). The idea is to be able to develop generalized prompts that can extract structured data from credit card statements. We use Langchain to create the prompts and Pydantic to make sure that the data is in the schema as need.
+This repository contains the code for the blog post [Comparing approaches for using LLMs for Structured Data Extraction from PDFs](https://unstract.com/blog/comparing-approaches-for-using-llms-for-structured-data-extraction-from-pdfs/). The idea is to be able to develop generalized prompts that can extract structured data from credit card statements. We use Langchain to create the prompts and Pydantic to make sure that the data is in the schema as need.
 
 
 This full-code approach is then contrasted with using a purpose-built environment like Unstract's Prompt Studio. The blog post goes into more detail about the pros and cons of each approach.
